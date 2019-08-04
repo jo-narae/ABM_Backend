@@ -20,7 +20,8 @@
   "homepage": "https://github.com/jeongyeonkim/ABM_Backend#readme",
   "dependencies": {
     "koa": "^2.7.0",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.19.1"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
