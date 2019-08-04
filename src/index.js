@@ -1,3 +1,6 @@
+require('dotenv').config();
+const port = process.env.PORT || 4500;
+
 const Koa = require('koa');
 const Router = require('koa-router');
 
@@ -13,6 +16,6 @@ router.get('/', (ctx, next) => {
 //app.use(router.routers());
 app.use(router.routes()).use(router.allowedMethods());
 
-app.listen(3000, () => {
-    console.log('heurm server is listening to port 3000');
+app.listen(port, () => {
+    console.log(`heurm server is listening to port ${port}`);
 });
