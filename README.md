@@ -3,6 +3,9 @@ ABM Team Project
 
 #애완동물을 위한 웹앱
 
+## init
+    npm install
+
 ## use
 * Frontend 
  vue
